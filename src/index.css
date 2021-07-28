@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./fonts/RobotoMono-Bold.ttf');
+}
+
+* {
+  font-family: 'RobotoMono', monospace;
+}
+
+h1,
+h2 {
+  padding: 0;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to top, rgb(19, 106, 138), rgb(38, 120, 113)) repeat scroll
+    0% 0%;
+}
